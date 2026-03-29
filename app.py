@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
 # LOAD DATA
-df = pd.read_csv(r"C:\Users\User\Desktop\WORKSHOP\diabetes.csv")
+df = pd.read_csv("diabetes.csv")
 
 # TITLE
 st.title("Diabetes Prediction System")
